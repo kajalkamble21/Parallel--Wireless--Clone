@@ -1,0 +1,152 @@
+.main-content {
+    text-align: center; /* Center align the content */
+    background-color: rgb(238, 238, 238);
+    height:25vh;
+    justify-content: center;
+   
+    align-items: center; 
+}
+
+.main-content h4 span {
+    color: rgb(238, 102, 49); /* Set the default color */
+    text-decoration: none; /* Remove underline by default */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.main-content h4 span:hover {
+    color: red; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.main-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1; /* Occupy 1 part of the available space */
+    padding: 20px; /* Adjust as needed */
+}
+
+.left-side img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.right-side {
+    flex: 1; /* Occupy 1 part of the available space */
+    padding: 20px; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+}
+
+.right-side h2 {
+    color: rgb(238, 102, 49); /* Set the default color */
+}
+
+.right-side p1 {
+    color: black; /* Adjust text color as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5;
+    text-decoration: underline;
+    font-weight: bolder; /* Adjust line height as needed */
+    width:20%;
+}
+
+.right-side h3 {
+    color: rgb(238, 102, 49); 
+   /* Set the default color */
+}
+
+.right-side h3 :hover{
+    text-decoration: underline;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none;
+    display: none;
+    height: 400px; /* Adjust the height as needed */
+    overflow-y: auto; }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #0a0808;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

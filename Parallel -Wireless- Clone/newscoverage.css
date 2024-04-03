@@ -1,0 +1,106 @@
+
+
+.img-container {
+    position: relative;
+    height: 100vh; /* Set height to fill the viewport */
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: flex; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+  }
+
+  .textre {
+    margin: 0;
+    color: black; /* Text color */
+    font-size:40px; /* Increased font size */
+    text-align: center; /* Text alignment */
+    font-weight: bolder;
+  }
+  .h1{
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .art-container {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.art {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.art img {
+    width: 100%; /* Make the images fill the container */
+    max-width: 150px; /* Limit the maximum width of the images */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons a i {
+    font-size: 24px;
+    color: #e92929;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 17, 0);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .red-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size:20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .red-button:hover {
+    background-color: rgb(189, 16, 16);
+  }
+  

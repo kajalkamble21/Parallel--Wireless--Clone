@@ -1,0 +1,76 @@
+
+
+.section3 li::marker, .link3, .main li::marker, .new-section li::marker, .cont1 li::marker, .div2 li::marker{
+    color:#ff5100;
+}
+
+
+.arrow{
+    font-size: 60px;
+    color: #ff5100;
+}
+
+.btn1{
+    position: absolute;
+}
+
+
+
+figure {
+    display: inline-block;  
+    position: relative;
+}
+  
+
+.div2{
+    padding: 4%;
+}
+
+
+.contact-div{
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 45px;
+}
+
+
+
+
+
+.form-div, .blog-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3%;
+}
+
+
+
+
+.p12{
+    font-size: 32px;
+    font-weight: 900px;
+    color: black;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 4%;
+    gap: 40px;
+}
+
+
+
+
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    padding-left: 4%;
+}
+
+
+

@@ -1,0 +1,66 @@
+.contact {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f3eeee; /* Background color */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin-top:1 0px;
+  
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+textarea {
+    height: 10rem;
+}
+
+button[type="submit"] {
+    background-color: #c81a1a;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.name-container {
+    display: flex;
+}
+
+.name-container input {
+    margin-right: 1rem; /* Adjust spacing between inputs */
+}
+
+.rounded-button {
+    border: none;
+    border-radius: 20px; /* Adjust the value for the desired roundness */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 16px; /* Button text size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.rounded-button:hover {
+    background-color: #de2727; /* Button background color on hover */
+}
